@@ -1,0 +1,10 @@
+# Git
+
+Blob = Files 
+Tree = Directories
+
+Commit ==>
+1) The hash of the tree
+2) The hash of parent commits
+3) Time, author
+4) Message
