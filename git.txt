@@ -9,5 +9,10 @@ Commit ==>
 3) Time, author
 4) Message
 
+# COMMIT
 1) git add  (filename or (all) . )
 2) git commit -m 'Message for the commit'
+# Before every commit we 'git add' OR git commit -am
+
+# SHOW
+git show --format=raw d409ca7(Commit hash)
