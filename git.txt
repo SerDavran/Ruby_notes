@@ -8,3 +8,6 @@ Commit ==>
 2) The hash of parent commits
 3) Time, author
 4) Message
+
+1) git add  (filename or (all) . )
+2) git commit -m 'Message for the commit'
