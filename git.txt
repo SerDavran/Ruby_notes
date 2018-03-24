@@ -28,7 +28,8 @@ git checkout test-branch => Go to new branch
 git merge (branche)
 
 # LOG
-git lg
+1) git log --all --decorate --oneline --graph
+2) git lg
 -------------------------------------------------------------------
 [alias]
     lg = !"git lg1"
