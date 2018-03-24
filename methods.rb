@@ -10,6 +10,8 @@ person2 = person1.dup
 person1.downcase
 # See encoding
 person1.encoding
+# Trim repeated characters
+person1.squeeze!(" ")
 # Substring array with patern
 'asd asd'.scan(/patern/)
 a = [1, 2, "γ"]
