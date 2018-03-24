@@ -4,7 +4,7 @@
 # Replace all
 'string Perl Perl'.gsub(/Perl/, 'Ruby')
 # Make same string object
-person1 = "Jim"
+person1 = "Jim Davran"
 person2 = person1.dup
 # Downcase
 person1.downcase
@@ -12,6 +12,8 @@ person1.downcase
 person1.encoding
 # Trim repeated characters
 person1.squeeze!(" ")
+# Split string 
+name, surname = person1.split(/\s+/)
 # Substring array with patern
 'asd asd'.scan(/patern/)
 a = [1, 2, "γ"]
