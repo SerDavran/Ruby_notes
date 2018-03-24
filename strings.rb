@@ -9,3 +9,6 @@ puts "Now is #{def time(string)
 				time('time')
 				} for you!!"
 # Working with strings late night
+
+Song = Struct.new(:title, :name, :length)
+
