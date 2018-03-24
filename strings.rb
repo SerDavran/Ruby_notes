@@ -8,7 +8,7 @@ puts "Now is #{def time(string)
 				end
 				time('time')
 				} for you!!"
-# Working with strings late night
+# Working with strings late nights
 
 Song = Struct.new(:title, :name, :length)
 
