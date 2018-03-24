@@ -25,6 +25,13 @@ puts 'Something in string format'
 print 'Something in same line ... '
 p 'Quick print object'
 
+#Ranges
+range1 = 1..10
+range1.include?(3)
+puts range1.max
+p range1.reject {|i| i<6}
+puts range1.inject(:+)
+
 # Class
 person = 'Tim'
 puts person.class
