@@ -15,4 +15,12 @@ Commit ==>
 # Before every commit we 'git add' OR git commit -am
 
 # SHOW
-git show --format=raw d409ca7(Commit hash)
+git show --format=raw d409ca7(Commit hash) => Τι άλλαξε στο commit
+git show --oneline master => Τι άλλαξε στο master branch
+git rev-parse master => Hash του master branch
+git status => Που είμσατε
+
+# BRANCHES
+git branch test-branch => Create new branch
+git checkout test-branch => Go to new branch
+
