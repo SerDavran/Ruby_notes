@@ -3,6 +3,7 @@
 'string Perl Perl'.sub(/Perl/, 'Ruby')
 # Replace all
 'string Perl Perl'.gsub(/Perl/, 'Ruby')
+# gsub(/[aeiou]/, '*') Μέσα στην λέξη ότι a,e,i,o,u υπάρχει το αλλάζει με *
 # Make same string object
 person1 = "Jim Davran"
 person2 = person1.dup
@@ -17,6 +18,8 @@ name, surname = person1.split(/\s+/)
 # Substring array with patern
 'asd asd'.scan(/patern/)
 a = [1, 2, "γ"]
+# Collect επιστρέφει νέο πίνακα.
+# Each δεν επιστέφει τίποτα.
 a.collect {|a| a.succ }# Όλα ένα μετά
 puts a.inspect
 
@@ -40,6 +43,18 @@ puts person
 
 #Arrays
 a = [ 13, 'string', 1.2 ]
+# Map: Takes enumerable objects and a block
+# Return teach time the value of the block. With map! we make changes to the enumerable object
+b = [1, 5, 14]
+c = ['name1', 'name2', 'name3']
+b.map! {|x| x + 1 }
+d = c.map {|string| string.upcase}
+p b
+p c
+p d
+# Make a table with asdignment
+table = 1,2,3,4
+p table
 a.class
 a.length
 a.inspect
