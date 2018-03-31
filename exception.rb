@@ -1,0 +1,43 @@
+# Exception hierarcy
+=begin 
+Exception
+   NoMemoryError
+   ScriptError
+       LoadError
+           Gem::LoadError
+       NotImplementedError
+       SyntaxError
+   SecurityError
+   SignalException
+       Interrupt
+   StandardError
+       ArgumentError
+           Gem::Requirement::BadRequirementError
+       EncodingError
+           Encoding::CompatibilityError
+           Encoding::ConverterNotFoundError
+           Encoding::InvalidByteSequenceError
+           Encoding::UndefinedConversionError
+       FiberError
+       IndexError
+			KeyError
+           StopIteration
+       IOError
+           EOFError
+       LocalJumpError
+       Math::DomainError
+       NameError
+           NoMethodError
+       RangeError
+           FloatDomainError
+       RegexpError
+       RuntimeError
+           Gem::Exception
+       SystemCallError
+       ThreadError
+       TypeError
+       ZeroDivisionError
+   SystemExit
+       Gem::SystemExitException
+   SystemStackError
+=end
